@@ -1,0 +1,84 @@
+html{
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: rgb(134,102,181);
+    background: linear-gradient(90deg, rgba(134,102,181,1) 27%, rgba(155,228,240,1) 84%);
+}
+
+#imagen{
+    width: 95px;
+}
+
+#contenedor h1{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+#contenedor{
+    margin: 10% auto;
+    width: 600px;
+    padding: 30px;
+    background: none;
+    text-align: center;
+}
+
+#Subcontenedor{
+    margin: 5% auto;
+    width: 100%;
+    padding: 30px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px rgba(155,228,240,1), -2px -2px 5px rgba(134,102,181,1);
+}
+
+#usuario, #correo, #password{
+    font-size: 20px;
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-bottom: solid rgb(70, 68, 68);
+
+}
+
+.elemento{
+    margin-bottom: 15px;
+    border: 10px;
+}
+
+.icono{
+    min-width: 50px;
+}
+
+.boton{
+    border: none;
+    width: 100%;
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.boton:hover{
+    background: rgba(132, 90, 201, 0.39);
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    color: red;
+}
+
