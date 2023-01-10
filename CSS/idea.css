@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#registrarse{
+    float: right;
+    background-color: #04AA6D;
+}
+
+#login{
+    float: right;
+    background-color: #04AA6D;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+/*tarjetas*/
+
+
+.cards{
+    display: flex;
+    gap: 5px;
+    float: left;
+}
+
+.cards .casas{
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+    perspective: 1000px;
+    margin: 10px;
+}
+.cards .casas .inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.7s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.cards .casas:hover .inner{
+    transform: rotateY(180deg);
+}
+
+.cards .casas .frente, 
+.cards .casas .descripcion {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.cards .casas .frente{
+    background-color: transparent;
+}
+.cards .casas .descripcion{
+    transform: rotateY(180deg);
+    border: solid 1px #bbb;
+}
+
+.cards .casas .inner .imagen{
+    width: 100%;
+    height: 100%;
+}
