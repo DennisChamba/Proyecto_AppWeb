@@ -143,3 +143,13 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #04AA6D;
+    color: white;   
+    position: relative;
+    bottom: 0;
+    width: 100%;    
+}
