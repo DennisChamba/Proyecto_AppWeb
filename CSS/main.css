@@ -36,6 +36,16 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 
+#registrarse {
+    float: right;
+    background-color: #04AA6D;
+}
+
+#login {
+    float: right;
+    background-color: #04AA6D;
+}
+
 .active {
     background-color: #04AA6D;
 }
@@ -44,10 +54,8 @@ li a:hover:not(.active) {
     background-color: #ddd;
     float: left;
     height: 350px;
-    margin-left: 20px;
-    margin-top: 20px;
-    padding: 10px;
-    width: 700px;
+    margin: 0.5%;
+    width: 49%;
     color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
@@ -57,16 +65,32 @@ li a:hover:not(.active) {
     background-color: #ddd;
     float: right;
     height: 350px;
-    margin-right: 20px;
-    margin-top: 20px;
-    padding: 10px;
-    width: 700px;
+    margin: 0.5%;
+    width: 49%;
     color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
 }
 
-#imagen{
+#imagen {
     width: 200px;
     height: 200px;
+}
+
+#contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#principal {
+    width: 40%;
+}
+
+#sidebar {
+    width: 60%;
+}
+
+#imagen2 {
+    width: 100%;
 }
