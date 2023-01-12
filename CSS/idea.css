@@ -63,8 +63,7 @@ li a:hover:not(.active) {
     background-color: transparent;
     width: 400px;
     height: 200px;
-    perspective: 1000px;
-    margin: 10px;
+    margin: 1%;
 }
 .cards .casas .inner{
     position: relative;
