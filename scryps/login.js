@@ -28,6 +28,13 @@ form.addEventListener("submit", e=>{
     }
     if(entrar == false){
         parrafo.innerHTML = warning;
+    }else{
+        console.log('salida')
+        
+        if(correo.value == "prueba@gmail.com" && password.value == 'Prueba12345@'){
+            console.log('entrada')
+            location.href = "/Logeado/idea.html";
+        }
     }
 
 })
