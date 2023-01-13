@@ -33,6 +33,11 @@ li a {
     text-decoration: none;
 }
 
+#busqueda{
+    text-align: center ;
+    margin-top: 13px;
+}
+
 #logo{
     padding: 0;
     margin: 10% auto;
