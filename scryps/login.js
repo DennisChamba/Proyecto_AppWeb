@@ -1,4 +1,3 @@
-const nombre = document.getElementById("usuario");
 const password = document.getElementById("password");
 const correo = document.getElementById("correo");
 
@@ -14,10 +13,6 @@ form.addEventListener("submit", e=>{
     parrafo.innerHTML = '';
     
 
-    if(nombre.value.length < 3){
-        warning += "El nombre es no es valido <br>"
-        entrar = false;
-    }
     if(!expresionRegularCorreo.test(correo.value)){
         warning += "El correo ingresado no es valido <br>"
         entrar = false;
@@ -33,7 +28,6 @@ form.addEventListener("submit", e=>{
     }
     if(entrar == false){
         parrafo.innerHTML = warning;
-        console.log(warning)
     }
 
 })

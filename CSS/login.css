@@ -79,3 +79,7 @@ p{
     color: red;
 }
 
+#warnings{
+    text-align: left;
+    color: rgb(245, 16, 142);  
+}
