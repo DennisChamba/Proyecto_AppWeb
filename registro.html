@@ -12,30 +12,34 @@
     <div id="contenedor">
       <h1>Registro</h1>
       <div id="Subcontenedor">
-          <form id="formulario">
+          <form id="formulario" action="">
             <img src="imagenes/registro.ico" id="imagen">
 
               <div class="elemento">
                   <label for="usuario" class="icono"> <img src="imagenes/usuario.ico"></label>
-                  <input type="text" name="usuario" id="usuario" required = "true" placeholder="Nombre">
+                  <input type="text" name="usuario" id="usuario" placeholder="Nombre">
               </div>
               
               <div class="elemento">
                   <label for="correo" class="icono"> <img src="imagenes/correo.ico"></label>
-                      <input type="email" name="correo" id="correo" required = "true" placeholder="Correo">
+                      <input type="text" name="correo" id="correo" placeholder="Correo">
               </div>
               
               <div class="elemento">
                   <label for="password" class="icono"> <img src="imagenes/password.ico"></label>
-                      <input type="password" name="password" id="password" required = "true" placeholder="Contraseña">
+                      <input type="password" name="password" id="password" placeholder="Contraseña">
               </div>
               <div class="elemento">
                   <input type="submit" value="Registrate" class="boton">
                   <p>¿Ya tienes cuenta? <a class="link" href="login.html">Iniciar sesion</a></p>
+                  <p id="warnings"></p>
               </div>
           </form>
+          
       </div>
     </div>
+
+    <script src="scryps/registro.js"></script>
 
   </body>
 </html>
